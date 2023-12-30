@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "username": "user123",
+            "password": "p",
+            "role": "tester"
+        },
+        {
+            "username": "johnDoe",
+            "password": "mySecretPass",
+            "role": "dev"
+        },
+        {
+            "username": "janeSmith",
+            "password": "p@ssw0rd",
+            "role": "tester"
+        },
+        {
+            "username": "testUser",
+            "password": "test123",
+            "role": "dev"
+        },
+        {
+            "username": "admin",
+            "password": "adminPass",
+            "role": "tester"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+  "defects": [
+    {
+      "id": "D001",
+      "category": "Functional",
+      "description": "Color mismatch in the navigation bar",
+      "priority": "2",
+      "status": "true"
+    },
+    {
+      "id": "D002",
+      "category": "UI",
+      "description": "Search functionality returns incorrect results",
+      "priority": "3",
+      "status": "true"
+    },
+    {
+      "id": "D003",
+      "category": "Functional",
+      "description": "Add a new field to the user registration form",
+      "priority": "1",
+      "status": "true"
+    },
+    {
+      "id": "D004",
+      "category": "Change Request",
+      "description": "Font size inconsistency on product description page",
+      "priority": "3",
+      "status": "true"
+    },
+    {
+      "id": "D005",
+      "category": "UI",
+      "description": "Error when submitting an empty form",
+      "priority": "2",
+      "status": "true"
+    },
+    {
+      "id": "D006",
+      "category": "Functional",
+      "description": "Implement email notifications for new messages",
+      "priority": "1",
+      "status": "false"
+    },
+    {
+      "id": "D007",
+      "category": "UI",
+      "description": "Button alignment issue on homepage",
+      "priority": "2",
+      "status": "true"
+    },
+    {
+      "id": "D008",
+      "category": "Change Request",
+      "description": "Login page throws error message on incorrect credentials",
+      "priority": "1",
+      "status": "true"
+    },
+    {
+      "id": "D009",
+      "category": "Functional",
+      "description": "Increase character limit in the comments section",
+      "priority": "3",
+      "status": "false"
+    },
+    {
+      "id": "D010",
+      "category": "UI",
+      "description": "Alignment issue in the footer section",
+      "priority": "1",
+      "status": "false"
+    },
+    {
+      "id": "D012",
+      "category": "Functional",
+      "description": "Add a feature to sort search results",
+      "priority": "1",
+      "status": "true"
+    },
+    {
+      "category": "UI",
+      "description": "sdsds",
+      "priority": "1",
+      "status": "false",
+      "id": "DB013"
+    },
+    {
+      "id": "DB014",
+      "category": "Functional",
+      "description": "Update the setId function",
+      "priority": "2",
+      "status": "false"
+    },
+    {
+      "id": "DB015",
+      "category": "Change Request",
+      "description": "Change the upload functionalities ",
+      "priority": "1",
+      "status": "false"
+    },
+    {
+      "category": "UI",
+      "description": "This is the testing of inputs",
+      "priority": "4",
+      "status": "false",
+      "id": "1aky1JX"
+    },
+    {
+      "category": "UI",
+      "description": "Hello this is testing",
+      "priority": "2",
+      "status": "false",
+      "id": "KbF8vbY"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+/* Login.css */
+body{
+  /* background:url('../assets/cool-background.svg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd; /* Gray background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; /* Black thumb color */
+}
+h1, h3{
+  color: #000;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 50px;
+  border-radius: 10px; 
+  background-color: #fff;
+}
+input[type="text"], input[type="password"]{
+  border-radius: 5px; 
+  outline: none;
+  border: 1px solid gray;
+  padding: 5px;
+}
+/* AddDefects */
+tr, td, thead{
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+.defect-table {
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.defect-table th,
+.defect-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.defect-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.defect-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.defect-table .status-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.defect-table .status-button i {
+  color: #ff0000;
+}
+
+.defect-table .status-button:hover i {
+  color: #c70000;
+}
+
+.defect-table .status-button:focus {
+  outline: none;
+}
+
+.defect-table .status-button:active {
+  transform: translateY(1px);
+}
