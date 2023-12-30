@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 const DropDown = ({ type, handlePriorityChange, handleCategoryChange }) => {
 
-    const [selectedValue, setSelectedValue] = useState('');
-
     const handleSelect = (eventKey) => {
-        setSelectedValue(eventKey);
         if (type.htmlFor === "priority") {
             handlePriorityChange(eventKey);
         }
